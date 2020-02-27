@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
+
+    <title>My Media Library</title>
+
+    <link rel="shortcut icon" href="assets/images/gt_favicon.png">
+
+    <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/6b3fc99458.js" crossorigin="anonymous"></script>
+
+    <!-- Custom styles for our template -->
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- Fixed navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top headroom">
+    <div class="container">
+        <div class="navbar-header">
+            <!-- Button for smallest screens -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
+                    class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Progressus HTML5 template"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">About</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">My projects<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="bon-duelle.html">Bon-duelle</a></li>
+                        <li><a href="tutored-project.html">Tutored Project</a></li>
+                        <li><a href="bee-challenge.html">Bee Challenge</a></li>
+                        <li class="active"><a href="media-library.html">Media Library</a></li>
+                    </ul>
+                </li>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+<!-- /.navbar -->
+
+<header id="head" class="secondary"></header>
+
+<!-- container -->
+<div class="container">
+
+    <ol class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li class="active">Media Library</li>
+    </ol>
+
+    <div class="row">
+
+        <!-- Sidebar -->
+        <aside class="col-md-4 sidebar sidebar-left">
+
+            <div class="row widget">
+                <div class="col-xs-12">
+                    <h4>The JavaScript Media Library</h4>
+                    <p>This was a one month project we had to do during our free time.</p>
+                </div>
+            </div>
+            <div class="row widget">
+                <div class="col-xs-12">
+                    <h4>One of the aspect of the Application</h4>
+                    <p><img src="assets/images/mediatheque.png" alt=""></p>
+                </div>
+            </div>
+
+
+        </aside>
+        <!-- /Sidebar -->
+
+        <!-- Article main content -->
+        <article class="col-md-8 maincontent">
+            <header class="page-header">
+                <h1 class="page-title">How did I do it ?</h1>
+            </header>
+            <p>
+                During our JavaScript formation, we had a projet, and it was to do a only JavaScript, as the subject's
+                course is about, a media library.
+            </p>
+
+            <h2>First version</h2>
+            <p>
+                I started by doing a rapid mockup of what I wanted to do, during the short month I had.
+            </p>
+            <p>
+                After that, I did the first version of it, which contained only the display of the different media, in
+                the way I wished it.
+            </p>
+            <p>
+                When the display was done, I added the button to remove them, and add one media, with a modal.
+            </p>
+            <p>
+                The majority of the display is done with JavaScript, every media is created by it. When the media is
+                created, it is added to an array, which simplify the removing after this.
+            </p>
+
+            <h3>Using LocalStorage</h3>
+            <p>
+                To store Media, without using a database, I'm using LocalStorage, which stores it in the browser, like
+                this, if you do not restart it, you cannot lose your Media.
+            </p>
+            <h3>Searching by Type</h3>
+            <p>
+                When you want to search by Type, you can do that by clicking on the navbar, on the type you want to
+                search by.
+            </p>
+        </article>
+        <!-- /Article -->
+
+    </div>
+</div>    <!-- /container -->
+
+
+<footer id="footer" class="top-space">
+
+    <div class="footer1">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3 widget">
+                    <h3 class="widget-title">Contact :</h3>
+                    <div class="widget-body">
+                        <p>Théo LEGRAND<br>
+                            <a href="mailto:#">legrandtheo88@gmail.com</a><br>
+                            <br>
+                            8 Wall Street,<br> Raon L'Etape, 88110, France
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 widget">
+                    <h3 class="widget-title">Follow me</h3>
+                    <div class="widget-body">
+                        <p class="follow-me-icons">
+                            <a href="https://twitter.com/Pepsyk" target="_blank"><i class="fab fa-twitter fa-2"></i></a>
+                            <a href="https://github.com/legrand82u" target="_blank"><i
+                                    class="fab fa-github fa-2"></i></a>
+                            <a href="https://gitlab.com/legrand82u" target="_blank"><i class="fab fa-gitlab"></i></a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 widget">
+                    <h3 class="widget-title">Testimonials</h3>
+                    <div class="widget-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, dolores, quibusdam
+                            architecto voluptatem amet fugiat nesciunt placeat provident cumque accusamus itaque
+                            voluptate modi quidem dolore optio velit hic iusto vero praesentium repellat commodi ad id
+                            expedita cupiditate repellendus possimus unde?</p>
+                        <p>Eius consequatur nihil quibusdam! Laborum, rerum, quis, inventore ipsa autem repellat
+                            provident assumenda labore soluta minima alias temporibus facere distinctio quas adipisci
+                            nam sunt explicabo officia tenetur at ea quos doloribus dolorum voluptate reprehenderit
+                            architecto sint libero illo et hic.</p>
+                    </div>
+                </div>
+
+            </div> <!-- /row of widgets -->
+        </div>
+    </div>
+
+    <div class="footer2">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 widget">
+                    <div class="widget-body">
+                        <p class="simplenav">
+                            <a href="index.html">Home</a> |
+                            <a href="blog.html">My Blog</a> |
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 widget">
+                    <div class="widget-body">
+                        <p class="text-right">
+                            Copyright &copy; 2020, Théo LEGRAND. Designed by <a href="http://gettemplate.com/"
+                                                                                rel="designer">gettemplate</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div> <!-- /row of widgets -->
+        </div>
+    </div>
+
+</footer>
+
+
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="assets/js/headroom.min.js"></script>
+<script src="assets/js/jQuery.headroom.min.js"></script>
+<script src="assets/js/template.js"></script>
+</body>
+</html>
