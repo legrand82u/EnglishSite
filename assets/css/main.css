@@ -85,3 +85,6 @@ img.pull-left { margin-right: 10px; }
 	display: flex;
 	justify-content: center;
 }
+.logo {
+	height: 50%;
+}
